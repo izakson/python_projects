@@ -13,7 +13,7 @@
 2. **Сходимость** - проверка соответствии друг другу данных из разных источников  или из разных хранилищ
 3. **Неизменность** - проверка сегодняшних данных на соответствие с вчерашними данными (только по закрытым отчетным периодом
 
-Скрипты:
+## Скрипты:
 1. [Файл для конфигураций, настроек и справочных материалов](https://github.com/izakson/python_projects/blob/main/data_check/config.py)
 2. [Скрипт для выгрузки данных из БД и последующей обработки - проверка чистоты](https://github.com/izakson/python_projects/blob/main/data_check/get_data.py)
 3. [Скрипт для сравнения данных между собой - проверка сходимости и неизменности](https://github.com/izakson/python_projects/blob/main/data_check/match_data.py)
@@ -21,3 +21,10 @@
 5. [Главный скрипт, получающий данные из всех предыдущих и запускающий программу](https://github.com/izakson/python_projects/blob/main/data_check/data_check.py)
 
 Также добавлены 3 sql-запроса, использованные в коде.
+
+## Использованные библиотеки
+
+- Для работы с БД: *sqlalchemy, urllib, pyodbc*  
+- Для обработки данных: *pandas, datetime*
+- Для выгрузки результатов: *email.mime, smtplib, atlassian* 
+
